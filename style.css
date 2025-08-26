@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+html {
+    background-color: black;
+    overflow-x:hidden;
+}
+
+/* Nav Bar  */
+nav {
+    width: 100vw;
+    height: 10vh;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color:grey;
+    transition: color 0.3s ease;
+}
+
+/* Main Section */
+
+#weatherMain {
+width: 100vw;
+height: 80vh;
+display: flex;
+flex-flow: column;
+justify-content: center;
+align-items: center;
+border: red 1px solid;
+border-radius: 5px;
+margin: 2px;
+background-color: rgba(209, 10, 10, 0.3);
+}
+
+#weatherImg {
+    border: solid rgba(60, 15, 197, 0.5);
+    border-radius: 100px;
+    height: 125px;
+    width: 125px;
+    background-image: url(images/cloudy.png);
+    background-position: center;
+    background-size: contain;
+}
+
+#searchBar {
+    display: flex;
+}
+
+#searchBarField {
+    color: black;
+}
+
+#searchButton {
+    color: black;
+}
